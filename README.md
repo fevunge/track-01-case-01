@@ -2,6 +2,8 @@
 
 > Especificação técnica detalhada. Duas fases independentes (Vector primeiro, HashMap depois), cada uma com API, decisões de design, casos de teste e critérios de conclusão.
 
+![](./doc/image/9ikdn0pplhd25i7run21.png)
+
 ## Objectivo Geral
 
 Perceber, por dentro, o que `std::vector` e `std::unordered_map` fazem de facto — estratégia de realloc, invalidação de iteradores, hashing, colisões — implementando versões próprias com a mesma interface essencial, e comparando-as com as da standard library em correcção e performance.
